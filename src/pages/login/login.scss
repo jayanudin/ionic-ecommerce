@@ -1,0 +1,70 @@
+page-login {
+    .content.content-md {
+        background-image: url('../assets/imgs/bg-login.png');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    .scroll-content {
+        left: 50px;
+        right: 50px;
+        overflow: hidden;
+    }
+
+    .login-wrapper {
+        .logo {
+            margin-top: 30px;
+        }
+
+        img {
+            width: 80px;
+        }
+    }
+
+    .form {
+        margin-top: 50px;
+
+        .input-wrap {
+            margin-bottom: 80px;
+
+            .item-inner {
+                border-bottom: 1px solid #469fe245;
+            }
+        }
+
+        .item-md {
+            font-size: 1.2em;
+            padding: 0;
+            background-color: transparent;
+            margin: 0 0 15px;
+        }
+
+        .item-inner {
+            padding: 0;
+            box-shadow: none;
+        }
+
+        .label-md {
+            overflow: unset;
+        }
+
+        
+        button {
+            display: block;
+            width: 100%;
+            padding: 20px 0;
+            border-radius: 30px;
+            font-size: .85em;
+            font-weight: 500;
+            background: white;
+            color: #469fe2;
+            box-shadow: 1px 1px 13px -14px rgba(156,156,156,1);
+        }
+    }
+
+    .register {
+        margin-top: 50px;
+        letter-spacing: 1px;
+    }
+}
